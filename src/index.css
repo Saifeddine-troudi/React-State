@@ -1,0 +1,51 @@
+.profile-card {
+  margin: 20px auto;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 70%;
+  border-radius: 5px;
+  padding: 1rem;
+  box-shadow: 2px -4px 10px 1px rgba(0, 0, 0, 0.2);
+  background-color: #fff3f3;
+}
+.profile-card > .info-container {
+  width: 70%;
+  margin: 20px;
+}
+.profile-card h2 {
+  font-size: 16px;
+  font-weight: bold;
+  color:orange 
+  } 
+h3{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 16px;
+  font-weight: bold;
+  color:  orange;
+}
+h6{
+  font-size: 16px;
+  font-weight: bold;
+  color: black;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+button{
+    outline: none;
+    cursor: pointer;
+    padding: 0.2rem 0.5 rem;
+    background:rgba(192, 144, 144, 0.621) ;
+    color: rgb(248, 248, 248);
+    border: none;
+    font-size: 5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    transition: ease-in-out 0.3s;
+  }
+  .clock{
+    color: rgb(253, 218, 165);
+  }
+img{
+  border-radius: 10px;
+  width: 200px;
+  height: 200px;
+}
